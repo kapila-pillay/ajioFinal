@@ -1,0 +1,139 @@
+body{
+    width:100%;
+    overflow-x: hidden;
+}
+.wishlist, .cart{
+    margin-top: 45px;
+    width: 2.5em;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+.navbar-collapse1{
+    margin-left:210px
+}
+.navvbar-nav1{
+    
+    margin-top: 45px;
+}
+.nav-link1{
+    padding: 40px;
+}
+.navbar{
+    border-bottom: 1px solid lightblue;
+    border-top: 1px solid lightblue;
+}
+
+.nav-crumb{
+    border-left: 2rem;
+}
+.search{
+    margin-top: 45px;
+    width: 35em;
+    border-radius: 2px;
+    
+}
+.breadcrumb-item:hover{
+    cursor:pointer;
+    
+}
+nav ol li a{
+    color:grey ;
+}
+.row{
+    margin-left: 5rem;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: whitesmoke;
+  }
+  
+  .flex-container > div {
+    background-color: papayawhip;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+
+
+
+.footer1 ul li img{
+    width: 90px;
+    height: 80px;
+}
+.footer1 ul{
+    display: inline-flex;
+    list-style: none;
+}
+.footer1 ul li{
+    padding: 1rem 3rem 1rem 8rem;
+}
+.footer2{
+    background-color: rgb(51, 51, 68);
+    display: flex;
+    height:350px;
+}
+.footer2 ul li h5{
+    padding-bottom: 2rem;
+}
+.footer2 ul li{
+    margin-left: 3rem;
+    margin-right: 4rem;
+    padding: 3px;
+    list-style: none;
+    margin-left: 10px;
+    font-size: 13px;
+    color: whitesmoke;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.footer2 ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+.footer2 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.col-10, .col-2 p{
+    color: whitesmoke;
+}
+.ftr3 img{
+    padding-right: 2rem;
+}
+.footer3{
+    background-color: rgb(51, 51, 68);
+    display: flex;
+    height:200px;
+}
